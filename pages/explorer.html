@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorar</title>
+    <link rel="shortcut icon" href="../assets/tool.svg">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/modals.css">
+    <link rel="stylesheet" href="../styles/error.css">
+    <script src="https://kit.fontawesome.com/02ee34085a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Modal -->
+    <section class="upload" id="upload">
+        <div class="upload-container">
+            <p>Crea una nueva publicación</p>
+            <div class="upload-file">
+                <i class="fas fa-photo-video"></i>
+                <h3>Arrastra las fotos y los videos aqui</h3>
+                <button class="btn-upload">Seleccionar de la computadora</button>
+                <a href="#header" class="upload-close">
+                    <i class="fas fa-times"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="news" id="news">
+        <div class="news-container">
+            <p>
+                Este mes
+                <a href="#header" class="modal-close">
+                    <i class="fas fa-times"></i>
+                </a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Nav Header -->
+    <header id="header">
+        <nav>
+            <a href="../index.html" class="instagram-logo"><img src="../assets/instagram-logo.png" alt=""></a>
+
+            <input type="search" name="search" id="search" placeholder="Search">
+
+            <!-- Nav Responsive -->
+            <input type="checkbox" id="btn-menu">
+            <label for="btn-menu"><i class="fas fa-bars fa-2x"></i></label>
+
+            <!-- Nav Icons -->
+            <div class="icons-nav ">
+                <a href="home-page.html">
+                    <i class="fas fa-home"></i>
+                </a>
+                <a href="direct-inbox.html">
+                    <i class="fab fa-facebook-messenger"></i>
+                </a>
+                <a href="#upload" class="cta">
+                    <i class="far fa-plus-square"></i>
+                </a>
+                <a href="explorer.html">
+                    <i class="far fa-compass"></i>
+                </a>
+                <a href="#news">
+                    <i class="far fa-heart"></i>
+                </a>
+                <a href="../index.html">
+                    <i class="far fa-user-circle"></i>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="error">
+        <h1>Página en mantenimiento</h1>
+        <img src="../assets/mantenimiento.png" alt="">
+    </section>
+
+    <footer>
+        <h5>© 2022 InstaPost by <a href="https://github.com/iamDaniHdz" target="_blank">Daniel Hernández</a></h5>
+        <h5>Inspired in 
+            <a href="https://www.instagram.com/" target="_blank">
+                Instagram
+            </a> 
+            and 
+            <a href="https://www.pinterest.com.mx/" target="_blank">
+                Pinterest
+            </a>
+        </h5>
+    </footer>
+</body>
+
+</html>

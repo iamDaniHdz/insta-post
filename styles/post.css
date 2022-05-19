@@ -1,0 +1,180 @@
+/* Post Page */
+.post-page{
+    margin-top: 50px;
+}
+
+.post-content{
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 50%);
+    margin: 0px 10%;
+    border-radius: 20px;
+    display: flex;
+}
+
+.post-img{
+    width: 50%;
+}
+
+.post-img img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-end-start-radius: 20px;
+}
+
+.post-text{
+    padding: 30px;
+    width: 50%;
+}
+
+.post-nav{
+    display: flex;
+    margin: 0;
+    align-items: center;
+    font-size: 20px;
+}
+
+.icon-post{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.save-nav{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.btn-red, .btn-gray{
+    color: #fff;
+    border-radius: 50px;
+    font-size: 15px;
+    padding: 15px 20px;
+}
+
+.btn-red{
+    background-color: #e60023;
+}
+
+.btn-gray{
+    background-color: #efefef;
+    color: #111;
+}
+
+.btn-gray:hover{
+    background-color: #e2e2e2;
+    cursor: pointer;
+}
+
+.btn-red:hover{
+    background-color: #ad081b;
+    cursor: pointer;
+}
+
+.post-resume{
+    margin: 20px 0px;
+}
+
+.post-resume h4{
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.user-nav{
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.user-data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-data img{
+    border-radius: 100%;
+    width: 40px;
+    margin-right: 10px;
+}
+
+#comentario{
+    padding: 15px;
+    border-radius: 50px;
+    border: 1px solid #efefef;
+    margin: 20px;
+    width: 100%;
+
+}
+
+.comentario{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+/* Media Queries */
+
+@media (max-width: 1080px) {
+    .post-page{
+        display: flex;
+        justify-content: center;
+    }
+
+    .post-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60%;
+    }
+
+    .post-img{
+        width: 100%;
+    }
+
+    .post-img img{
+        border-radius: 20px;
+    }
+
+    .save-nav{
+        width: 60%;
+    }
+
+    .post-text{
+        width: 100%;
+    }
+
+    .post-resume{
+        padding: 0px 20px;
+    }
+    
+}
+
+@media (max-width: 550px) {
+    .post-page{
+        width: 660px;
+    }
+
+    .post-nav{
+        font-size: .7rem;
+    }
+
+    .btn-red, .btn-gray{
+        font-size: .7rem;
+        padding: 10px 15px;
+        height: 15px;
+    }
+
+    .post-resume h4{
+        font-size: 2rem;
+    }
+
+    #comentario{
+        margin: 10px;
+    }
+
+    footer{
+        width: 660px;
+    }
+}
